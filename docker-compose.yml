@@ -1,0 +1,38 @@
+version: '3'
+
+networks:
+  hugo_network_book_ansible:
+    driver: bridge
+
+
+services:
+
+  nginx:
+    image: nginx:stable-alpine
+    restart: unless-stopped
+    volumes:
+      - ./dist:/usr/share/nginx/html:ro
+    networks:
+      - hugo_network_book_ansible
+    ports:
+      - ${NGINX_PORT}:80
+
+  hugo:
+    image: klakegg/hugo:ext-alpine
+    user: ${CURRENT_UID}
+    command: help
+    volumes:
+      - ".:/src"
+
+  server:
+    image: klakegg/hugo:ext-alpine
+    container_name: book_ansible_hugo
+    user: ${CURRENT_UID}
+    restart: unless-stopped
+    command: ["server", "--watch" , "-D"]
+    volumes:
+      - "./:/src"
+    networks: 
+      - hugo_network_book_ansible
+    ports:
+      - $HTTP_PORT:1313

@@ -1,0 +1,5 @@
+baseURL: 'https://ansible.sujaykumarh.com/'
+languageCode: 'en-us'
+title: 'Ansible Book'
+
+# theme: ''

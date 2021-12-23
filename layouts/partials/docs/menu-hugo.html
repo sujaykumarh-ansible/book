@@ -1,0 +1,42 @@
+<!--
+  This is template for hugo menus, accepts MenuEntity as context
+  https://gohugo.io/variables/menus/
+-->
+{{ if . }}
+  {{ template "book-menu-hugo" . }}
+{{ end }}
+
+
+{{ define "book-menu-hugo" }}
+<ul class="menu-after">
+  {{ range . }}
+  <li>
+    {{ if .URL }}
+      <a href="{{ .URL }}" {{ if not .Page }}target="_blank" rel="noopener"{{ end }}>
+        {{- .Pre -}}
+        {{ with .Page }}
+          {{ partial "docs/title" .Page }}
+        {{ else }}
+          {{ .Name }}
+        {{ end }}
+        {{- .Post -}}
+      </a>   
+    {{ else }}
+      {{ if hasPrefix .Name "--" }}
+        <hr>
+      {{ else }}
+        <div>{{ .Name }}</div>
+      {{ end }}
+    {{ end }}
+    {{ if .Children }}
+      <ul class="menu-after">
+        {{ template "book-menu-hugo" .Children }}
+      </ul>
+    {{ end }}
+    {{- with .Children }}
+      {{ template "book-menu-hugo" . }}
+    {{- end }}
+  </li>
+  {{ end }}
+</ul>
+{{ end }}

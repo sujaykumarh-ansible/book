@@ -1,0 +1,27 @@
+# ##################################################
+#
+# /robots.txt
+#
+# Stop snooping around you're not a robot.
+# Solve this reCaptcha to prove you are not a robot.
+#     ___               ___
+#    (o o)             (o o)
+#   (  V  ) reCaptcha (  V  )
+#   --m-m---------------m-m--
+#
+# ascii art from: https://texteditor.com
+#
+# ##################################################
+
+
+User-agent: *
+Allow: /
+
+Disallow: /_assets/
+Disallow: /assets/
+Disallow: /images/
+Disallow: /img/
+Disallow: /svg/
+
+
+Sitemap: https://ansible.sujaykumarh.com/sitemap.xml
