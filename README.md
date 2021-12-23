@@ -46,4 +46,4 @@ Read [LICENSE](LICENSE) for more details.
 <br>
 
 
-## 🔗 [My Ansible Repos](https://https://github.com/sujaykumarh-ansible)
+## 🔗 [My Ansible Repos](https://github.com/sujaykumarh-ansible)
