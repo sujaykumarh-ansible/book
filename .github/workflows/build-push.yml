@@ -34,7 +34,7 @@ jobs:
         run: |
           cp dist-readme.md src/dist/
           touch src/dist/.nojekyll
-          if [ -f "CNAME" ]; then cp CNAME dist/CNAME; fi
+          if [ -f "CNAME" ]; then cp CNAME src/dist/CNAME; fi
 
       - name: 🚀 Push to gh-pages
         uses: s0/git-publish-subdir-action@develop
