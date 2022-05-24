@@ -4,8 +4,8 @@
 
 <br>
 
-[![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/sujaykumarh/ansible-book/build-push/main)](https://github.com/sujaykumarh/ansible-book/actions)
-[![LICENSE](https://img.shields.io/badge/code%20license-MIT-blue?logo=github&color=blue)](https://github.com/sujaykumarh/ansible-book/blob/main/LICENSE)
+[![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/sujaykumarh-ansible/book/build-push/main)](https://github.com/sujaykumarh-ansible/book/actions)
+[![LICENSE](https://img.shields.io/badge/code%20license-MIT-blue?logo=github&color=blue)](https://github.com/sujaykumarh-ansible/book/blob/main/LICENSE)
 
 <br>
 
@@ -45,5 +45,4 @@ Read [LICENSE](LICENSE) for more details.
 <br>
 <br>
 
-
-## 🔗 [My Ansible Repos](https://github.com/sujaykumarh-ansible)
+<sub>powered by [hugo](https://gohugo.io) and [notebook](https://github.com/sujaykumarh/hugo-notebook) theme on GitHub Pages</sub>
