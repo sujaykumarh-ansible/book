@@ -8,7 +8,7 @@ headless: true
 
 <div class="spaced"></div>
 
-* [✨ About Ansible](/about-ansible "About Ansible")
+* [ℹ️ About Ansible](/about-ansible "About Ansible")
 
 <div class="spaced"></div>
 
@@ -18,13 +18,20 @@ headless: true
 
 * [🔨 Roles](/roles/ "Roles")
 
-    * [0️⃣ One](/roles/ "")
-
+    * [🛡️ security](/roles/security "")
+    * [🔌 ssh](/roles/ssh "")
+    * [🧱 firewall](/roles/firewall "")
+    * [🐋 docker](/roles/docker "")
+    * [💲 dotfiles ](/roles/dotfiles "")
+    <!-- * [0️⃣ One](/roles/ "") -->
+  
 <div class="spaced"></div>
 
 * [🧰 Playbooks](/plays/ "Playbooks")
 
-    * [0️⃣ One](/plays/ "")
+    * [🕳️ Pi-Hole](/plays/pi-hole "")
+    * [🗄️ Pi-Server](/plays/pi-server "")
+    <!-- * [0️⃣ One](/plays/ "") -->
 
 <!-- <div class="spaced"></div> -->
 

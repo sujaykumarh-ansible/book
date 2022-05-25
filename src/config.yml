@@ -41,10 +41,13 @@ menu:
   #     weight: 0
 
   after:
-    - name: "About me"
+    - name: "✨ Sponser"
+      url: "/sponser"
+      weight: 1
+    - name: "ℹ️ About me"
       url: "https://sujaykumarh.com/?utm_source=ansible-book&utm_medium=left-nav"
       weight: 10
-    - name: "Fork on Github"
+    - name: "🚀 Fork on Github"
       # url: "https://github.com/sujaykumarh-ansible/book"
       url: "https://github.com/sujaykumarh-ansible/book"
       weight: 20
@@ -53,6 +56,9 @@ menu:
     - name: "📗 My Notebook"
       url: "https://notebook.sujaykumarh.com/?utm_source=ansible-book&utm_medium=left-nav"
       weight: 80
+    - name: "🛡️ Report Security Issue"
+      url: "https://github.com/sujaykumarh-ansible/.github/blob/main/SECURITY.md"
+      weight: 50
 
 params:
   copyright: "Sujaykumar Hublikar"
