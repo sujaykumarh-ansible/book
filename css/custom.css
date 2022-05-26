@@ -183,4 +183,21 @@ details .markdown-inner {
 
 
 /* Responsive */
-@media screen and (min-width:80rem) {}
+@media (max-width: 768px) {
+  article.markdown{
+    margin-top: 2rem;
+  }
+
+  /* #ansible-book {
+    background: red !important;
+  } */
+  .book-menu .book-menu-content{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    width: max(18rem, 40%);
+  }
+
+  #menu-control:checked ~ main .book-page{
+    opacity: .1;
+  }
+}
