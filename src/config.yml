@@ -51,14 +51,17 @@ menu:
       # url: "https://github.com/sujaykumarh-ansible/book"
       url: "https://github.com/sujaykumarh-ansible/book"
       weight: 20
+    - name: "📄 LICENSE"
+      url: "/license"
+      weight: 35
     - name: "------"
-      weight: 30
-    - name: "📗 My Notebook"
-      url: "https://notebook.sujaykumarh.com/?utm_source=ansible-book&utm_medium=left-nav"
-      weight: 80
+      weight: 40
     - name: "🛡️ Report Security Issue"
       url: "https://github.com/sujaykumarh-ansible/.github/blob/main/SECURITY.md"
       weight: 50
+    - name: "📗 My Notebook"
+      url: "https://notebook.sujaykumarh.com/?utm_source=ansible-book&utm_medium=left-nav"
+      weight: 80
 
 params:
   copyright: "Sujaykumar Hublikar"
