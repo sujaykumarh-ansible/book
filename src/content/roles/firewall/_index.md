@@ -19,6 +19,19 @@ ufw is chosen because it is the most widely used firewall and is the most up to 
 
 additionally you can install [**fail2ban**](http://www.fail2ban.org/wiki/index.php/Main_Page) for additional protection against attacks.
 
+
 ## 📚 Usage
 
+```bash
+git submodule add https://github.com/sujaykumarh-ansible/role-firewall.git roles/sujaykumarh.firewall
+```
+
+this will make `sujaykumarh.firewall` role available in your playbook.
+
 ## 🔧 Configuration Options
+
+these are the default options for this role and can be overridden by the playbook options as required.
+
+```yaml
+firewall_install: yes               # should firewall be installed?
+```
