@@ -181,6 +181,9 @@ details .markdown-inner {
   width: auto;
 }
 
+.book-page, .custom-footer, .book-menu-content hr, .book-menu-content .menu-after{
+  border-color: #dadcde;
+}
 
 /* Responsive */
 @media (max-width: 768px) {
