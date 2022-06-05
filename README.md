@@ -37,7 +37,7 @@ This was created to help reference Ansible in one place and to help others learn
 
 ## LICENSE
 
-**Code license:** [MIT](https://github.com/sujaykumarh-ansible/book/blob/main/LICENSE)  © 2021 [sujaykumarh](https://sujaykumarh.com)
+**Code license:** [MIT](https://github.com/sujaykumarh-ansible/book/blob/main/LICENSE)  © 2021 [sujaykumarh](https://github.com/sujaykumarh)
 
 **Content license:** [Creative Commons Attribution International - CC-BY 4.0](https://github.com/sujaykumarh-ansible/book/blob/main/LICENSE-CONTENT)
 
