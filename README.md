@@ -1,6 +1,6 @@
 <div align="center">
 
-## 📘 [Ansible Book](https://ansible.sujaykumarh.com/?utm_source=github&utm_medium=readme&utm_campaign=view-book)
+## 📘 Ansible Book
 
 <br>
 
@@ -37,7 +37,10 @@ This was created to help reference Ansible in one place and to help others learn
 
 ## LICENSE
 
-[MIT License](https://github.com/sujaykumarh-ansible/book/blob/main/LICENSE) © 2021 [sujaykumarh](https://github.com/sujaykumarh)
+**Code license:** [MIT](https://github.com/sujaykumarh-ansible/book/blob/main/LICENSE)  © 2021 [sujaykumarh](https://sujaykumarh.com)
+
+**Content license:** [Creative Commons Attribution International - CC-BY 4.0](https://github.com/sujaykumarh-ansible/book/blob/main/LICENSE-CONTENT)
+
 
 <br>
 <!-- <br> -->
