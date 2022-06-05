@@ -31,16 +31,17 @@ This was created to help reference Ansible in one place and to help others learn
 
 <sub>Give it a ⭐ star if you found it useful</sub>
 
-</div>
 
 <br>
 <br>
 
 ## LICENSE
 
-2021 © [Sujaykumar. Hublikar](https://github.com/sujaykumarh) under [MIT License](https://github.com/sujaykumarh-ansible/book/blob/main/LICENSE)
+[MIT License](https://github.com/sujaykumarh-ansible/book/blob/main/LICENSE) © 2021 [sujaykumarh](https://github.com/sujaykumarh)
 
 <br>
-<br>
+<!-- <br> -->
 
 <sub>powered by [hugo](https://gohugo.io) and [notebook](https://github.com/sujaykumarh/hugo-notebook) theme on GitHub Pages</sub>
+
+</div>
