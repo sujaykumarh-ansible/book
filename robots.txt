@@ -15,13 +15,4 @@
 
 
 User-agent: *
-Allow: /
-
-Disallow: /_assets/
-Disallow: /assets/
-Disallow: /images/
-Disallow: /img/
-Disallow: /svg/
-
-
-Sitemap: https://ansible.sujaykumarh.com/sitemap.xml
+Disallow: /
